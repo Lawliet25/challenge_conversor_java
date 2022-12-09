@@ -50,36 +50,36 @@ public class Conversor {
 							//De moneda local a extranjera
 							if (opcionSeleccionada.toString()=="Dólar a euro"){
 								conversion = entrada*0.95;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " euros.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: €" + df.format(conversion) + " euros.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Dólar a libras esterlinas") {
 								conversion = entrada*0.82;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " libras esterlinas.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: £" + df.format(conversion) + " libras esterlinas.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Dólar a yen japonés") {
 								conversion = entrada*136.84	;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " yen japonés.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: ¥" + df.format(conversion) + " yen japonés.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Dólar a won surcoreano") {
 								conversion = entrada*1320.96;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " won surcoreano.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: ₩" + df.format(conversion) + " won surcoreano.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							//De moneda extranjera a local
 							else if (opcionSeleccionada.toString()=="Euro a dólar") {
 								conversion = entrada*1.05;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: $" + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Libras esterlinas a dólar") {
 								conversion = entrada*1.22;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: $" + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Yen japonés a dólar") {
 								conversion = entrada*0.0073;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: $" + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}
 							else if (opcionSeleccionada.toString()=="Won surcoreano a dólar") {
 								conversion = entrada*0.00076;
-								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: " + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
+								JOptionPane.showMessageDialog(null, "El resultado de la conversión es: $" + df.format(conversion) + " dólares.", "Aviso",JOptionPane.INFORMATION_MESSAGE);
 							}							
 						}
 						else {
